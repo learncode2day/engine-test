@@ -1,0 +1,118 @@
+{
+    "modules": {
+        "metadata": {
+            "removeServerIntegration": true,
+            "removePinnedServers": true,
+            "removeModSettings": true,
+            "removeClientSettings": true,
+            "removeBlogPosts": false,
+            "isEnabled": true
+        },
+        "removeStoreButton": {
+            "isEnabled": false
+        },
+        "discordRichPresence": {
+            "clientID": "920998351430901790",
+            "icon": "logo",
+            "iconText": "Solar Tweaks",
+            "afkText": "AFK",
+            "menuText": "In Menu",
+            "singlePlayerText": "Playing Singleplayer",
+            "displayActivity": true,
+            "showServerIP": true,
+            "showIcon": true,
+            "isEnabled": false
+        },
+        "privacy": {
+            "isEnabled": false
+        },
+        "removeFakeLevelHead": {
+            "isEnabled": false
+        },
+        "capeSystem": {
+            "serverURL": "http://server.cloaksplus.com",
+            "isEnabled": true
+        },
+        "changeModStrings": {
+            "nickhiderText": "You",
+            "fpsText": "FPS",
+            "cpsText": "CPS",
+            "levelHeadText": "Level",
+            "reachText": "blocks",
+            "isEnabled": false
+        },
+        "windowTitle": {
+            "title": "Solar Tweaks",
+            "showVersion": true,
+            "showAdvancedVersion": true,
+            "isEnabled": true
+        },
+        "websocketURL": {
+            "url": "wss://assetserver.lunarclientprod.com/connect",
+            "isEnabled": false
+        },
+        "lunarOverlays": {
+            "isEnabled": false
+        },
+        "clothCapes": {
+            "isEnabled": false
+        },
+        "removeMousePopup": {
+            "isEnabled": false
+        },
+        "removeProfilesCap": {
+            "isEnabled": false
+        },
+        "toggleSprintText": {
+            "flyingText": "Flying",
+            "flyingBoostText": "Boost",
+            "ridingText": "Riding",
+            "descendingText": "Descending",
+            "dismountingText": "Dismounting",
+            "sneakingText": "Sneaking",
+            "toggledText": "Toggled",
+            "sprintingText": "Sprinting",
+            "isEnabled": false
+        },
+        "allowCrackedAccounts": {
+            "crackedUsername": "Steve",
+            "crackedSkin": "Steve",
+            "isEnabled": false
+        },
+        "fpsSpoof": {
+            "multiplier": 1.0,
+            "isEnabled": false
+        },
+        "noHitDelay": {
+            "isEnabled": false
+        },
+        "traversalEmotes": {
+            "isEnabled": false
+        },
+        "metadataURL": {
+            "metadataURL": "https://api.lunarclientprod.com/game/metadata",
+            "isEnabled": false
+        },
+        "rawInput": {
+            "isEnabled": false
+        },
+        "accurateReachDisplay": {
+            "isEnabled": false
+        },
+        "showAllThemes": {
+            "isEnabled": true
+        },
+        "trollLogo": {
+            "isEnabled": false
+        }
+    },
+    "customCommands": {
+        "commands": {
+        },
+        "scripts": {
+        }
+    },
+    "customMods": [
+    ],
+    "debugPackets": false
+}

@@ -1,0 +1,7 @@
+{
+    "id": "example-mod",
+    "version": "$version",
+    "initializer": "com.solartweaks.example.ExampleMod",
+    "isKotlin": true,
+    "systemClasses": ["com.solartweaks.example"]
+}

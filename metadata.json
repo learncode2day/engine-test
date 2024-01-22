@@ -1,0 +1,322 @@
+{
+    "modules": {
+        "accurateReachDisplay": {
+            "options": {
+            },
+            "displayName": "Accurate Reach Display",
+            "description": "Removes Lunar Client's built-in reach display cap of 3.0 blocks"
+        },
+        "allowCrackedAccounts": {
+            "options": {
+                "crackedSkin": {
+                    "type": "STRING",
+                    "displayName": "Cracked Skin",
+                    "description": "The name of the premium player whose skin you want to use"
+                },
+                "crackedUsername": {
+                    "type": "STRING",
+                    "displayName": "Cracked Username",
+                    "description": "Set this field to the username you want"
+                }
+            },
+            "displayName": "Allow Cracked Accounts",
+            "description": "Allows you to use cracked/offline Minecraft accounts on Lunar Client"
+        },
+        "capeSystem": {
+            "options": {
+                "serverURL": {
+                    "type": "STRING",
+                    "displayName": "Server URL",
+                    "description": "Paste the server URL here"
+                }
+            },
+            "displayName": "Cape System",
+            "description": "Allows you to change the cape/cosmetics system that the client will use"
+        },
+        "changeModStrings": {
+            "options": {
+                "cpsText": {
+                    "type": "STRING",
+                    "displayName": "CPS Text",
+                    "description": "The text that the CPS counter will say (instead of CPS)"
+                },
+                "fpsText": {
+                    "type": "STRING",
+                    "displayName": "FPS Text",
+                    "description": "The text that the FPS counter will say (instead of FPS)"
+                },
+                "levelHeadText": {
+                    "type": "STRING",
+                    "displayName": "Level Head Text",
+                    "description": "The text that will show up under someones username (instead of Level)"
+                },
+                "nickhiderText": {
+                    "type": "STRING",
+                    "displayName": "Nickhider Text",
+                    "description": "The username that will show up if you enable self-nicking. Particularly useful if you want a custom name with symbols and colors"
+                },
+                "reachText": {
+                    "type": "STRING",
+                    "displayName": "Reach Text",
+                    "description": "The text that will show up in the Reach mod (instead of \"blocks\")"
+                }
+            },
+            "displayName": "Change Mod Text",
+            "description": "Allows you to change texts shown by certain mods"
+        },
+        "clothCapes": {
+            "options": {
+            },
+            "displayName": "Cloth Cloaks",
+            "description": "Replaces all Lunar cloaks with a cloth cloak texture (might slow down your game)"
+        },
+        "discordRichPresence": {
+            "options": {
+                "afkText": {
+                    "type": "STRING",
+                    "displayName": "AFK Text",
+                    "description": "Text that will show up if the game screen is currently not active"
+                },
+                "clientID": {
+                    "type": "STRING",
+                    "displayName": "Client ID",
+                    "description": "If you don't know what this is, do not touch"
+                },
+                "displayActivity": {
+                    "type": "BOOLEAN",
+                    "displayName": "Dislay Activity",
+                    "description": "If enabled, your current activity (singleplayer/multiplayer/menu/afk) will be shown in Discord"
+                },
+                "icon": {
+                    "type": "STRING",
+                    "displayName": "Icon ID",
+                    "description": "Allows you to set the icon ID (leave this as \"logo\" for the ST logo"
+                },
+                "iconText": {
+                    "type": "STRING",
+                    "displayName": "Icon Text",
+                    "description": "Changes the hover text for the icon"
+                },
+                "menuText": {
+                    "type": "STRING",
+                    "displayName": "Menu Text",
+                    "description": "Text that will show up if some kind of menu is opened"
+                },
+                "showIcon": {
+                    "type": "BOOLEAN",
+                    "displayName": "Show Icon",
+                    "description": "If enabled, an icon will be shown"
+                },
+                "showServerIP": {
+                    "type": "BOOLEAN",
+                    "displayName": "Show server IP",
+                    "description": "If enabled, the address of the server you are on is show in Discord. Be careful with private SMPs!"
+                },
+                "singlePlayerText": {
+                    "type": "STRING",
+                    "displayName": "Single Player Text",
+                    "description": "Text that will show up if you are not playing on a server"
+                }
+            },
+            "displayName": "Discord Rich Presence",
+            "description": "Allows you to change the look-and-feel of the Discord Rich Presence"
+        },
+        "fpsSpoof": {
+            "options": {
+                "multiplier": {
+                    "type": "FLOAT",
+                    "displayName": "Multiplier",
+                    "description": "Specifies the number to multiply the fps value with"
+                }
+            },
+            "displayName": "FPS Spoof",
+            "description": "Spoofs your FPS with a multiplier (note: this purely visual, eg. fake)"
+        },
+        "lunarOverlays": {
+            "options": {
+            },
+            "displayName": "Overlays",
+            "description": "Allows you to use so-called \"Lunar Client overlays\""
+        },
+        "metadata": {
+            "options": {
+                "removeBlogPosts": {
+                    "type": "BOOLEAN",
+                    "displayName": "Remove Blog Posts",
+                    "description": "Removes advertisements of Lunar on the home screen of the client"
+                },
+                "removeClientSettings": {
+                    "type": "BOOLEAN",
+                    "displayName": "Remove Forced Client Settings",
+                    "description": "Similar as Remove Mod Settings, except more general. Usually has no effect (but it might in the future)"
+                },
+                "removeModSettings": {
+                    "type": "BOOLEAN",
+                    "displayName": "Remove Forced Mod Settings",
+                    "description": "Prevents Lunar Client from forcing mod settings"
+                },
+                "removePinnedServers": {
+                    "type": "BOOLEAN",
+                    "displayName": "Remove Pinned Servers",
+                    "description": "Removes the advertised servers on the Multiplayer screen"
+                },
+                "removeServerIntegration": {
+                    "type": "BOOLEAN",
+                    "displayName": "Remove Mod Bans (Freelook)",
+                    "description": "Prevents Lunar from setting mod settings based on the server you are on (for example, this removes the Freelook ban)"
+                }
+            },
+            "displayName": "Metadata",
+            "description": "Allows you to remove certain unwanted features from Lunar Client"
+        },
+        "metadataURL": {
+            "options": {
+                "metadataURL": {
+                    "type": "STRING",
+                    "displayName": "Metadata URL",
+                    "description": "The new URL"
+                }
+            },
+            "displayName": "Set Metadata URL",
+            "description": "Sets the Metadata URL (don't use if you don't know what this means)"
+        },
+        "noHitDelay": {
+            "options": {
+            },
+            "displayName": "No Hit Delay",
+            "description": "Allows you to revert combat back to 1.7 and have no hit delay. This is sometimes considered a cheat, use at your own risk!"
+        },
+        "privacy": {
+            "options": {
+            },
+            "displayName": "Privacy",
+            "description": "Prevents Lunar Client from spying on your computer"
+        },
+        "rawInput": {
+            "options": {
+            },
+            "displayName": "Raw Mouse Input",
+            "description": "Mouse input will no longer be jittery with high polling rates"
+        },
+        "removeFakeLevelHead": {
+            "options": {
+            },
+            "displayName": "Remove Fake Level Head",
+            "description": "On Hypixel, nicked players will no longer get assigned a random level"
+        },
+        "removeMousePopup": {
+            "options": {
+            },
+            "displayName": "No Mouse Polling Popup",
+            "description": "Removes the annoying popup about your mouse polling rate"
+        },
+        "removeProfilesCap": {
+            "options": {
+            },
+            "displayName": "Remove Profiles Cap",
+            "description": "Removes the maximum profiles count of 8"
+        },
+        "removeStoreButton": {
+            "options": {
+            },
+            "displayName": "Remove Store Button",
+            "description": "Removes Lunar's store button from the main menu"
+        },
+        "showAllThemes": {
+            "options": {
+            },
+            "displayName": "Show All Themes",
+            "description": "Unlocks all of Lunar's seasonal themes!"
+        },
+        "toggleSprintText": {
+            "options": {
+                "descendingText": {
+                    "type": "STRING",
+                    "displayName": "Descending Text",
+                    "description": "Text shown instead of \"Descending\""
+                },
+                "dismountingText": {
+                    "type": "STRING",
+                    "displayName": "Dismounting Text",
+                    "description": "Text shown instead of \"Dismounting\""
+                },
+                "flyingBoostText": {
+                    "type": "STRING",
+                    "displayName": "Flying Boost Text",
+                    "description": "Text shown instead of \"Boost\""
+                },
+                "flyingText": {
+                    "type": "STRING",
+                    "displayName": "Flying Text",
+                    "description": "Text shown instead of \"Flying\""
+                },
+                "ridingText": {
+                    "type": "STRING",
+                    "displayName": "Riding Text",
+                    "description": "Text shown instead of \"Riding\""
+                },
+                "sneakingText": {
+                    "type": "STRING",
+                    "displayName": "Sneaking Text",
+                    "description": "Text shown instead of \"Sneaking\""
+                },
+                "sprintingText": {
+                    "type": "STRING",
+                    "displayName": "Sprinting Text",
+                    "description": "Text shown instead of \"Sprinting\""
+                },
+                "toggledText": {
+                    "type": "STRING",
+                    "displayName": "Toggled Text",
+                    "description": "Text shown instead of \"Toggled\""
+                }
+            },
+            "displayName": "Change Toggle Sprint Text",
+            "description": "Allows you to change the text shown by the Toggle Sprint/Sneak mod"
+        },
+        "traversalEmotes": {
+            "options": {
+            },
+            "displayName": "Traversal Emotes",
+            "description": "Allows you to always use emotes, even when walking"
+        },
+        "trollLogo": {
+            "options": {
+            },
+            "displayName": "Troll Logo",
+            "description": "Shows a weird easter egg that normally has a 1 in 1000000000 chance of happening"
+        },
+        "websocketURL": {
+            "options": {
+                "url": {
+                    "type": "STRING",
+                    "displayName": "URL",
+                    "description": "Paste the websocket URL you want to use here"
+                }
+            },
+            "displayName": "Websocket",
+            "description": "Allows you to modify the websocket URL that the client uses to fetch resources"
+        },
+        "windowTitle": {
+            "options": {
+                "showAdvancedVersion": {
+                    "type": "BOOLEAN",
+                    "displayName": "Show Advanced Version",
+                    "description": "Appends commit hash and branch to window title"
+                },
+                "showVersion": {
+                    "type": "BOOLEAN",
+                    "displayName": "Show Version",
+                    "description": "Determines if the Engine version is displayed in the window title"
+                },
+                "title": {
+                    "type": "STRING",
+                    "displayName": "Title",
+                    "description": "The new title that will show up"
+                }
+            },
+            "displayName": "Window Title",
+            "description": "Allows you to set a custom title for the game's window (note: because of limitations this only works pre-1.14)"
+        }
+    }
+}
